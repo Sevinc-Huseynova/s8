@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+  :root {
+     /* umumi arxa fonun rengi */
+         --header-yuxari-reng: #130b20;
+         /* umumi arxa fonun rengi */
+         --header-asagi-reng: #0b0b1d;
+         /* sign in butonun rengi -kvadratin*/
+         --header-btn-rengi: #3A68B8;  
+             /* agacin arxa fonun rengi*/
+        
+      
+         
+        }
+
+            /* altdan xetti yox edir  */
+        * {
+            text-decoration: none;
+          }
+
+        
+         
+            /* yazilarin sriftin deyismek */
+         body {
+              font-family: 'Times New Roman', Times, serif;
+          }
+        
+         
+         .open-sans-adi {
+           font-family: "Open Sans", sans-serif;
+           font-optical-sizing: auto;
+           font-weight: 400;
+           font-style: normal;
+           font-variation-settings:
+             "wdth" 100;
+         }
+
+
+        
+        header{
+                  background: linear-gradient(to bottom,var(--header-yuxari-reng),var(--header-asagi-reng));
+                  display: flex;
+                  justify-content: space-around;
+                  align-items: center;
+                  padding: 30px 0;
+      
+                }
+                     
+      
+       header nav {
+                display: none;
+                  }
+
+      header nav a {
+              margin-right:30px;
+             background: hwb(120 7% 93%);
+          }
+
+      header i {
+               color: #fff;
+              font-size: 24px;
+
+
+          }
+        header button {
+                  background-color: var(--header-btn-rengi);
+                  /* sign in text yazinin rengi */
+                  color: #fff;
+                  padding: 15px 30px;
+                  border-color:transparent;
+                  border-radius: 5px;
+                  display: none;
+
+           }
+            
+        
+          a  {
+   /*  linklerin yazilarin rengin deyismek burdan-home-about-*/
+               color:#fff;
+
+             }
+            
+       .hero-section {
+                    background:linear-gradient(to bottom, var(--header-yuxari-reng),var(--header-asagi-reng));
+                    /* artifical tekstin yazisin deyisen kod */
+                    color:#fff;
+                  
+            }
+      
+             /* MEDIYA COD TELEFONLAR PLANSETLER UCUN KOD */   
+             .hero .hero-left h6 {
+                   text-transform: uppercase;
+                   /* next generation olatformun rengi */
+                   color: #2d38dd;
+                   opacity: 0.7;
+             }
+
+             .hero[
+              display: flex;
+              flex-direction:column;
+ 
+             ]
+             .hero .hero-left  h2 {
+              font-size: 29px;
+              margin: 20px 0 40px;
+              /* articialin tekstin olcusu */
+              font-weight: 700;
+               }
+
+              .hero .hero-left  p {
+              
+                margin-bottom: 50px;
+                /* lorem yazinin rengin deyisen kod */
+                color:#fff;
+                opacity: 0.7;
+                 }
+                /* get started watch video rengi */
+                  .hero .buttonlar button {
+                    background-color:#2661ce;
+                    border: none;
+                    padding: 15px 30px;
+                 }
+/* -----------------3CU HISSE BURDAN BASLAYIR----------------------- */
+                 /*  -BALACA LOGOLAR 4EDED */
+                 .hero .buttonlar button img 
+                
+                 {
+                  width: 10px
+                 
+                 }   
+                .company{
+                  /* 4eded logonun arxasindaki kvadratin fonunun rengi */
+                  background-color:  #0a121f;
+                } 
+                /* 4eded logonun arxa fon */
+                .company img{
+                  height: 60px;
+
+  /* -----------------4CU HISSE AGAC----------------------- */               
+                }
+               .ai-left-side{
+               
+                /* agac sekil -arxa fonun*/
+               background: #111113;
+               }
+   /* --------------APPLY-yazilar ------------ */
+                .ai-right-side  {
+          
+      /* --------------APPLY-yazilarin rengi ------------ */
+
+                color: #fff;
+                padding: 200px;
+                width: 120px 0;
+                
+
+  /* --------------aply al deep -yazilarin arxa fonun rengi ------ */
+         
+               
+                } 
+                   .ai-right-side {
+               background:#111117;
+               padding: 200px 0; ;
+      
+   /* --------------5eded sekiller yazilarla olan ------ */
+{
+  
+}
+@media (max-width:576px) {
+         .hero{
+         flex-direction: column;
+
+      }
+
+          }
+          .hero .hero-right img{
+                 width: 300px;
+                 
+
+
+          }
+
+        {
+@media (min-width:768px)  }
+        
+       header i {
+                   display: none !important;
+        }
+        
+        
+       header nav, header button {   
+          display: flex;
+        }
+      header nav  a {
+
+          margin-right: 20px;
+        }
+      header img {
+                 width: 178px;
+          }
+           /* HERO SECTION START */
+                
+      .hero   {
+
+                  flex-direction: row;
+                }
+      .hero .hero-right img {
+                    width: 400px;
+                    
+  
+                {
+}
+@media (min-width:992px) {
+                
+              
+
+            
