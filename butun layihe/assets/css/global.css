@@ -1,0 +1,293 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root{
+  --header-yuxari-reng:#060611;
+  --header-asagi-reng:#110d0f;
+  --header-btn-rengi :#3a68b8;
+  --hero-yuxari-reng:#110d0f;
+  --hero-asagi-reng:#060611;
+
+  
+
+ 
+}
+  body  {
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+  *  {
+    margin: 0;
+      text-decoration: none;
+     }
+
+  .open-sans-nazik {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+
+}
+   header {
+  background:var(--header-yuxari-reng);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 100px ;
+
+}
+   header nav ,   { 
+   display: none;
+   
+     
+}
+
+  header nav a  {
+    margin-right: 30px;
+}
+  header i {
+    color: #fff;
+    font-size: 24px;
+
+  }
+  header button {
+    background-color: #3a68b8;
+    color: #fff;
+    padding: 15px 30px;
+    border-color:transparent ;
+    border-radius:5px;
+     display: none;
+
+     
+  }
+  a {
+     color: #fff;
+    }
+
+ 
+     /* HEADER SECTION END */
+
+     /* ------------------------------------------------------------------ */
+     /* HERO SECTION START */
+     /* hero arxa fonunn redakteesi rengin vermesi */
+    .hero-section {
+           background:var(--hero-yuxari-reng,--header-yuxari-reng);
+           color: #fff;
+           /* headerden sectionu ara verir ayirir pading 49px */
+           padding: 49px 0;
+
+   } 
+       
+    .hero .hero-left h6 {
+      /*butun herifleri boyuden kod */
+        text-transform: uppercase;
+        /* next yazinin rengi */
+        color: #3a68b8;
+        padding: 20px ;
+        margin: 50px 20px;
+    }    
+   .hero .hero-left h2  {
+        font-size: 55px;
+        margin: 20px 0 40px;
+        font-weight: 700;
+    }
+   .hero .hero-left p {
+        margin-bottom: 50px;
+        color: #ded4d4;
+        opacity: 0.7;
+   }  
+   .hero .buttonlar button {
+   background-color: var(--header-btn-rengi);
+   border: none;
+   padding: 15px 30px;
+   color: #ded4d4;
+   
+   }
+   .hero .buttonlar button img {
+     width: 11px;
+   }
+/* ---------------------------------------------------------------------- */
+      .introduction  {
+        background: #ded4d4;
+        color: #ded4d4;
+
+      }
+
+
+     .companies    {
+     background-color: #0a121f;
+
+     }
+     .companies img  {
+       height: 60px;
+       margin: 30px 0;
+     }
+
+
+/* ---------------------------------------------------------------------- */
+
+.tel-section {
+  background:linear-gradient(to bottom, var(--hero-yuxari-reng), var(--hero-asagi-reng));
+  color: #ebe9ee;
+  padding: 49px 0;
+
+} 
+
+.tel .tel-left h6 {
+/*butun herifleri boyuden kod */
+text-transform: uppercase;
+/* next yazinin rengi */
+color: #3a68b8;
+padding: 20px ;
+margin: 50px 20px;
+}    
+.tel .tel-left h2  {
+font-size: 50px;
+padding: 80px 20px;
+font-weight: 700;
+}
+.tel .tel-left p {
+margin-bottom: 50px;
+color: #ded4d4;
+opacity: 0.7;
+padding: 10px 20px;
+}  
+.tel  button {
+background-color: var(--header-btn-rengi);
+border: none;
+padding: 20px 20px;
+margin: 10px 50px;
+color: #ded4d4;
+
+}
+/* ---------------------------------------------------------------------- */
+.introduction  {
+background: #ded4d4;
+color: #ded4d4;
+
+}
+/* ------------------------awards */
+  .awards {
+   background: #060606;
+  }
+  .awards-parents {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1px;
+  }
+
+  .award {
+    background-color: var(--award-card);
+    color: #fff;
+    border-radius: 10px;
+    width: 19%;
+    padding: 10px;
+    color: rgba(255,255,255,.7);
+    transition: 1.2s linear;
+    box-shadow: 10px 20px 30px rgba(255,255,255,.7);
+  }
+  .award:hover  {
+      background-color: #ccc;
+      box-shadow: 10px 20px 30px rgba(255,255,255,.7);
+   
+    }
+
+  .award h3 {
+    font-size: 18px;
+    text-align: center;
+    padding: 40px 0px 0px;
+  }
+  .award img {
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .award article {
+    text-align: center;
+    font-size: 12px;
+    padding: 10px 0px;
+   }
+
+   
+
+
+   /* -----------futerin yuxarisi AWESOME-------------------------------------------- */
+   
+  .awesome .awesome-left h2  {
+    color: #fff;
+  font-size: 40px;
+  margin: 20px 0 40px;
+  font-weight: 700;
+  }
+  .awesome .awesome-left p {
+  color: #fff;
+  opacity: 0.5;
+  }  
+.awesome-section {
+  background:linear-gradient(to bottom, var(--hero-yuxari-reng), var(--hero-asagi-reng));
+  color: #fff;
+  padding: 50px 0;
+}
+/* ------------FOOTER ------------------ */
+
+  .footer-center a  {
+    display: block;
+   } 
+
+   .footer {
+    color: #fff;
+   background: #020b18;
+   }
+
+   .footer a{
+    color:#fff;
+    display: block;
+    text-decoration: none;
+    font-size: 40px 0;
+   }
+   
+  .footer-center a {
+    display: block;
+    color: #5e5d5d;
+    text-decoration: none;
+    font-size: 40px 0;
+  }
+  .footer h5 {
+    color: #fff;
+  }
+  .footer p {
+    color: #5f6062;
+}
+  .footer-right a {
+color: #fff;
+
+}
+
+
+
+/* ----------------------------------------------- */
+
+
+
+
+    /* MOBILE FIRST */
+ /* planset ve uzeri yuxari ekranlarda */
+       
+@media(min-width:768px)  {
+          header i {
+       display: none !important;
+    }
+        header nav, header button {
+      display: flex;
+    }
+        header nav a   {
+      margin-right: 20px;
+    }
+  }     
+@media(min-width: 992px;)   {
+  .hero-left h2 {
+    font-size: 48px !important;}
+   }
+
+    
