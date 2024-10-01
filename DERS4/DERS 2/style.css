@@ -1,0 +1,15 @@
+
+*{
+    border: 1PX solid RED;
+}
+
+
+table,th,td,tr  {
+      border:  1px solid rgb(39, 50, 241);
+      border-collapse: collapse;
+}
+th,td {
+     padding: 10px;
+}
+
+//border:1px solid red; CSS//
